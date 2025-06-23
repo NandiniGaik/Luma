@@ -19,7 +19,6 @@ public class MainTestApp {
 		String password = System.getenv("MY_PASSWORD");
 		String url="https://magento.softwaretestingboard.com/";
 		WebDriver driver=new ChromeDriver();
-	//	String password="Nandini93@";
 		String[] ids= {"firstname","lastname","email_address","password","password-confirmation"};
 		String[] values= {"Test","Account1",username,password,password};
 		
